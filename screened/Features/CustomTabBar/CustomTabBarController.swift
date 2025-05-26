@@ -28,8 +28,8 @@ class CustomTabBarController: UITabBarController {
                                      image: UIImage(systemName: "house"),
                                      selectedImage: UIImage(systemName: "house.fill"))
     
-    let watchListVC = UIViewController()
-    watchListVC.view.backgroundColor = .white
+    let watchListVC = MovieInfoViewController()
+    watchListVC.view.backgroundColor = .appBackground
     watchListVC.tabBarItem = UITabBarItem(title: "Watch List",
                                           image: UIImage(systemName: "bookmark"),
                                           selectedImage: UIImage(systemName: "bookmark.fill"))
